@@ -1,8 +1,10 @@
 # Ema Navigator
 
-Ema Navigator is a Java library for navigating between CLI pages within a project. It provides code generation to
-facilitate seamless navigation between "pages" by automatically generating methods to navigate to different classes (
-or "screens"). This approach is particularly useful for projects requiring a command-line interface (CLI) or
+Ema Navigator is a Java library for navigating between CLI pages within a project. 
+It provides code generation to
+facilitate seamless navigation between "pages"
+by automatically generating methods to navigate to different classes (or "pages").
+This approach is particularly useful for projects requiring a command-line interface (CLI) or
 programmatic navigation within applications.
 
 ## Table of Contents
@@ -22,7 +24,7 @@ programmatic navigation within applications.
 - **Parameter Passing:** Use `@Param` to indicate required parameters for a page.
 - **Type Safety:** Navigate between pages with parameter checks at compile time.
 - **Code Generation:** Uses JavaPoet to create the Navigator class with necessary methods automatically.
-- **Page History Management:** Includes `pop()` and `popUntil(Class<? extends AbstractNavigable> clazz)` to manage
+- **Page History Management:** Includes `pop()` and `popUntil(Class<? extends Navigable> page)` to manage
   navigation history.
 
 ## Installation
