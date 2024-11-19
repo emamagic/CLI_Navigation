@@ -34,7 +34,7 @@ programmatic navigation within applications.
 1. **Download Navigation Jar File**
 
    Download the latest version of [ema-navigator-1.1.0.jar](./releases/ema-navigator-1.1.0.jar).
-2. **Using the build-helper-maven-plugin (Optional but Recommended)**
+2. **Using the build-helper-maven-plugin**
 
    To ensure that generated sources are included in the build process,
    add the following configuration to your `pom.xml` file.
